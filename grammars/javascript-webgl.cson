@@ -5,10 +5,12 @@
 ]
 'patterns': [
   {
-    'begin': '(`)\\s*//\\s*glsl'
+    'begin': '(`)\\s*(//\\s*glsl[^`]*)'
     'beginCaptures':
       '1':
         'name': 'punctuation.definition.string.begin.js'
+      '2':
+        'name': 'comment.line.double-slash.cpp'
     'end': '`'
     'endCaptures':
       '0':
