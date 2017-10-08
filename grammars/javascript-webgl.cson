@@ -15,6 +15,7 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.js'
+    'name': 'source.glsl'
     'patterns': [
       {
         'include': 'source.glsl'
