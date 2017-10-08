@@ -1,0 +1,17 @@
+{
+  "name": "language-javascript-webgl",
+  "version": "0.0.0",
+  "description": "Javascript with embedded GLSL",
+  "keywords": [
+    "language",
+    "grammar",
+    "javascript",
+    "webgl",
+    "glsl"
+  ],
+  "repository": "https://github.com/fordhurley/language-javascript-webgl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

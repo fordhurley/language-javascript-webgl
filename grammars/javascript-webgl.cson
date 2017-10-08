@@ -1,0 +1,25 @@
+'scopeName': 'source.javascript-webgl'
+'name': 'Language Javascript (WebGL)'
+'fileTypes': [
+  'js'
+]
+'patterns': [
+  {
+    'begin': '(`)\\s*//\\s*glsl'
+    'beginCaptures':
+      '1':
+        'name': 'punctuation.definition.string.begin.js'
+    'end': '`'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.js'
+    'patterns': [
+      {
+        'include': 'source.glsl'
+      }
+    ]
+  }
+  {
+    'include': 'source.js'
+  }
+]
