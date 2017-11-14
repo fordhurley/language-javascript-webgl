@@ -23,6 +23,26 @@
     ]
   }
   {
+    'begin': '(vertexShader|fragmentShader)\\s*(:)\\s*(`)'
+    'beginCaptures':
+      '1':
+        'name': 'source.js'
+      '2':
+        'name': 'keyword.operator.assignment.js'
+      '3':
+        'name': 'punctuation.definition.string.begin.js'
+    'end': '`'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.js'
+    'name': 'source.glsl'
+    'patterns': [
+      {
+        'include': 'source.glsl'
+      }
+    ]
+  }
+  {
     'include': 'source.js'
   }
 ]
